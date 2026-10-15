@@ -1,0 +1,24 @@
+# 真实配置（含密钥），永远不要提交
+.env
+.env.local
+.env.prod
+.env.dev
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 运行产物
+*.log
+/tmp/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+.DS_Store

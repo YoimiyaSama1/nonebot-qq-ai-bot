@@ -1,0 +1,11 @@
+[project]
+name = "qqbot"
+version = "0.1.0"
+description = "QQ 机器人：NoneBot2 + NapCat(OneBot V11)"
+requires-python = ">=3.11"
+
+[tool.nonebot]
+adapters = []
+plugins = []
+plugin_dirs = ["src/plugins"]
+builtin_plugins = []
